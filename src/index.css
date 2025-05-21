@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+  
+  body {
+    @apply font-sans bg-white text-primary-800 antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold text-primary-900 leading-tight;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-6 py-3 rounded-md transition-all duration-300 font-medium;
+  }
+  
+  .btn-primary {
+    @apply bg-accent-500 text-white hover:bg-accent-600 shadow-md hover:shadow-lg;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-primary-300 hover:bg-primary-50 text-primary-700;
+  }
+
+  .section-title {
+    @apply text-3xl md:text-4xl mb-2 font-bold text-primary-900 relative;
+  }
+
+  .section-subtitle {
+    @apply text-lg text-primary-600 mb-8 max-w-2xl;
+  }
+
+  .image-card {
+    @apply overflow-hidden rounded-lg shadow-md hover:shadow-xl transition-all duration-300;
+  }
+
+  .image-card img {
+    @apply w-full h-full object-cover transition-transform duration-700 hover:scale-110;
+  }
+
+  .service-card {
+    @apply p-6 rounded-lg bg-white shadow-md hover:shadow-xl transition-all duration-300 border border-primary-100 hover:border-primary-300;
+  }
+
+  .navbar-link {
+    @apply relative px-3 py-2 text-primary-800 hover:text-accent-500 transition-colors duration-300 
+      after:content-[''] after:absolute after:w-0 after:h-0.5 after:bg-accent-500 
+      after:left-0 after:bottom-0 after:transition-all after:duration-300 hover:after:w-full;
+  }
+
+  .navbar-link.active {
+    @apply text-accent-500 after:w-full;
+  }
+}
+
+.carousel .control-dots .dot {
+  @apply bg-accent-500;
+}
+
+.section-container {
+  @apply py-16 md:py-24;
+}
+
+.container {
+  @apply px-4 mx-auto max-w-7xl;
+}
+
+.text-shadow {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
