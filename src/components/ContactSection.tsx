@@ -43,7 +43,7 @@ const ContactSection: React.FC = () => {
                   <Clock className="w-5 h-5 text-accent-500 mt-1 mr-4" />
                   <div>
                     <p className="font-medium">Horario</p>
-                    <p className="text-primary-300">Lunes a Dommingo: 9:00 - 23:00</p>
+                    <p className="text-primary-300">Lunes a Dommingo: 9:00 - 18:00</p>
               
                   </div>
                 </li>

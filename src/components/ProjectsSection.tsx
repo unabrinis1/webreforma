@@ -49,7 +49,7 @@ const projects: Project[] = [
   },
   {
     id: 6,
-    title: "Cocina abierta al salón",
+    title: "Barbacoa de diseño con encimero y chimenea",
     category: "Barbacoas",
     image: "/bbq1.jpg",
     description: "Construcción de barbacoa a medida con zona de preparación y almacenamiento con puertas. Acabados en ladrillo, porcelana y encimera."

@@ -91,7 +91,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex items-start gap-3">
                 <Clock className="w-5 h-5 text-accent-500 mt-0.5" />
-                <span className="text-primary-300">Lun - Vie: 9:00 - 22:00</span>
+                <span className="text-primary-300">Lun - Vie: 9:00 - 18:00</span>
               </li>
             </ul>
           </div>
